@@ -2,6 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+
+}
+
+h1 {
+    font-size: 50px;
 }
 
 .banner-container {
@@ -22,6 +27,11 @@ body {
 .left-bar {
     width: 50%;
 }
+
+.left-bar img {
+    width: 70%;
+}
+
 
 .title {
     font-size: 50px;
@@ -57,4 +67,19 @@ body {
 
 .button:hover {
     background-image: linear-gradient(tomato, orange);
+}
+
+.big-dream {
+    background-image: url(./Images/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-width {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
